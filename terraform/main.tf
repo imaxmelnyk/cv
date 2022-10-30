@@ -37,6 +37,12 @@ resource "aws_amplify_app" "cv" {
   repository = "https://github.com/${var.github_repository_name}"
   access_token = var.github_access_token
   build_spec = file("${path.module}/resources/amplify.yaml")
+
+  custom_rule {
+    source = "https://www.${var.domain}"
+    target = "https://${var.domain}"
+    status = "301"
+  }
 }
 
 resource "aws_amplify_branch" "master" {
@@ -55,6 +61,11 @@ resource "aws_amplify_domain_association" "cv" {
     branch_name = aws_amplify_branch.master.branch_name
     prefix = ""
   }
+
+  sub_domain {
+    branch_name = aws_amplify_branch.master.branch_name
+    prefix = "www"
+  }
 }
 
 // cloudflare resources
@@ -67,7 +78,10 @@ module "certificate_verification_dns_record" {
 
 module "subdomain_dns_records" {
   source = "./modules/cloudflare_raw_record"
-  for_each = {for sub_domain in aws_amplify_domain_association.cv.sub_domain: sub_domain.branch_name => sub_domain.dns_record}
+  for_each = {
+    for sub_domain in aws_amplify_domain_association.cv.sub_domain:
+      "${sub_domain.prefix == "" ? sub_domain.branch_name : "${sub_domain.branch_name}-${sub_domain.prefix}"}" => sub_domain.dns_record
+  }
 
   zone_id = var.cloudflare_zone_id
   raw_record = each.value
