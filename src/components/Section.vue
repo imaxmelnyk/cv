@@ -15,3 +15,9 @@ defineProps({
     <slot></slot>
   </div>
 </template>
+
+<style scoped>
+.section {
+  margin-bottom: 2em;
+}
+</style>

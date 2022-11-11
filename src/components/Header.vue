@@ -28,11 +28,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .separator {
-    display: inline;
-  }
-
-  .contact {
+  .separator, .contact {
     display: inline;
   }
 }

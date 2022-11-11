@@ -24,16 +24,16 @@ import Section from './Section.vue'
 </template>
 
 <style scoped>
-  th, td {
-    vertical-align: top;
-    padding: 0;
-  }
+th, td {
+  vertical-align: top;
+  padding: 0;
+}
 
-  th {
-    text-align: right;
-  }
+th {
+  text-align: right;
+}
 
-  td {
-    padding-left: 2em;
-  }
+td {
+  padding-left: 2em;
+}
 </style>
