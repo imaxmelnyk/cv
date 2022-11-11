@@ -1,10 +1,9 @@
 <script setup>
-import SectionTitle from './SectionTitle.vue'
+import Section from './Section.vue'
 </script>
 
 <template>
-  <div class="container section">
-    <SectionTitle title="Summary" />
+  <Section name="Summary">
     <div class="fs-5">
       <p>
         A Software Engineer that wants to change the world (or country, at least).
@@ -16,5 +15,5 @@ import SectionTitle from './SectionTitle.vue'
         P.S. It’s funny to talk about myself in 3rd person.
       </p>
     </div>
-  </div>
+  </Section>
 </template>
