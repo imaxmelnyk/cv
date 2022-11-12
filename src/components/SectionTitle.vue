@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="fs-1">
+  <div class="fs-2">
     <span class="text-color-red">{{ title.substring(0, 3) }}</span><span class="fw-bold">{{ title.substring(3) }}</span>
   </div>
 </template>

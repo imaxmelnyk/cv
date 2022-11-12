@@ -21,19 +21,19 @@ defineProps({
 
 <template>
   <div class="mb-5">
-    <div class="row fs-5">
-      <div class="col-8 fw-bold">
+    <div class="d-flex justify-content-between fs-5">
+      <div class="fw-bold">
         {{ company }}
       </div>
-      <div class="col-4 fw-lighter fst-italic text-color-red text-end">
+      <div class="fw-lighter fst-italic text-color-red text-end">
         {{ location }}
       </div>
     </div>
-    <div class="row fs-6 text-muted mb-2">
-      <div class="col-8">
+    <div class="d-flex justify-content-between fs-6 text-muted mb-2">
+      <div>
         {{ position }}
       </div>
-      <div class="col-4 fw-lighter fst-italic text-end">
+      <div class="fw-lighter fst-italic text-end">
         {{ period }}
       </div>
     </div>
