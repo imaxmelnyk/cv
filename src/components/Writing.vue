@@ -12,7 +12,7 @@ import ExperienceItem from './ExperienceItem.vue';
       period="May 2019">
 
       <p>
-        A process mining science work on how to run conformance checking considering data perspective of the process.
+        Process mining science work on how to run conformance checking considering the data perspective of the process.
       </p>
     </ExperienceItem>
   </Section>

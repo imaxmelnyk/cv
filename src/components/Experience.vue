@@ -24,7 +24,7 @@ import ExperienceItem from './ExperienceItem.vue';
             Mentor junior/middle engineers.
           </li>
           <li>
-            Collaborate staff engineers and managers to design architecture and plan activities.
+            Collaborate with staff engineers and managers to design architecture and plan activities.
           </li>
         </ul>
       </p>
@@ -32,16 +32,16 @@ import ExperienceItem from './ExperienceItem.vue';
         Achievements:
         <ul>
           <li>
-            Design & Implemention of BI Connector for people.ai data
+            Design & Implementation of BI Connector for people.ai data
             that reduces time-to-value from 2 weeks to 2 mins (10000 times faster),
-            which itself bring new clients for several mil $ ARR.
+            which itself brought new clients for several mil $ ARR.
           </li>
           <li>
             Design & Development of Public API from scratch. This enabled third-party business partners,
-            which itself opened new x2 more expensive subscription plan.
+            which itself opened a new x2 more expensive subscription plan.
           </li>
           <li>
-            Implementation of core slack bot feature that brought a $2mil ARR client.
+            Implementation of the core slack bot feature that brought a $2mil ARR client.
           </li>
           <li>
             Reduced the cost of applications & spark infrastructure by $5k per month.
@@ -103,7 +103,7 @@ import ExperienceItem from './ExperienceItem.vue';
         Achievements:
         <ul>
           <li>
-            Improved HD Lanes attributes detection accuracy by 47%.
+            Improved HD Lanes attribute detection accuracy by 47%.
           </li>
           <li>
             Implemented new algorithms for lanes extended attributes, which improved the performance by 31%.
@@ -231,7 +231,7 @@ import ExperienceItem from './ExperienceItem.vue';
             Migrated HTTP part of the application to Elixir, which improved its performance by 25%.
           </li>
           <li>
-            R&D of the new conformance checking algorithm (part of the master thesis).
+            R&D of the new conformance-checking algorithm (part of the master thesis).
           </li>
         </ul>
       </p>

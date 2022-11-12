@@ -23,14 +23,14 @@ import ExperienceItem from './ExperienceItem.vue';
       period="Aug. 2017">
 
       <p>
-        Communicate with local community (elderlies) and share our experience and culture.
+        Communicate with the local community (elderlies) and share our experience and culture.
       </p>
     </ExperienceItem>
 
     <ExperienceItem 
       company="IWO (Social project)"
       position="Team Member"
-      location="Yeongwol-gun, Souce Korea"
+      location="Yeongwol-gun, South Korea"
       period="Aug. 2019">
 
       <p>
