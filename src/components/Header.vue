@@ -5,11 +5,13 @@
     </h1>
     <div class="fs-5 text-color-red">Software Engineer</div>
     <div class="fs-6">
-      <span class="contact"><i class="bi bi-telephone-fill align-middle"></i> +14168541631</span>
+      <span class="contact"><i class="bi bi-telephone-fill align-middle"></i> <a class="link-unstyled" href="tel:+14168541631" target="_blank">+14168541631</a></span>
       <span class="mx-3 separator">|</span>
-      <span class="contact"><i class="bi bi-envelope-fill align-middle"></i> max@maxmelnyk.dev</span>
+      <span class="contact"><i class="bi bi-envelope-fill align-middle"></i> <a class="link-unstyled" href="mailto:max@maxmelnyk.dev" target="_blank">max@maxmelnyk.dev</a></span>
       <span class="mx-3 separator">|</span>
-      <span class="contact"><i class="bi bi-github align-middle"></i> imaxmelnyk</span>
+      <span class="contact"><i class="bi bi-github align-baseline"></i> <a class="link-unstyled" href="https://github.com/imaxmelnyk" target="_blank">imaxmelnyk</a></span>
+      <span class="mx-3 separator">|</span>
+      <span class="contact"><i class="bi bi-linkedin align-baseline"></i> <a class="link-unstyled" href="https://www.linkedin.com/in/imaxmelnyk" target="_blank">Maksym Melnyk</a></span>
     </div>
   </div>
 </template>
@@ -27,9 +29,18 @@
   display: block;
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
   .separator, .contact {
     display: inline;
+  }
+}
+
+a.link-unstyled {
+  color: inherit;
+  text-decoration: inherit;
+
+  &:hover, &:focus {
+    text-decoration: underline;
   }
 }
 </style>
