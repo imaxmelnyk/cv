@@ -4,7 +4,7 @@ import Section from './Section.vue'
 
 <template>
   <Section name="Skills">
-    <table class="fs-5">
+    <table class="fs-6">
       <tbody>
         <tr>
           <th>Programming</th>

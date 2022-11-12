@@ -4,7 +4,7 @@ import Section from './Section.vue'
 
 <template>
   <Section name="Summary">
-    <div class="fs-5">
+    <div class="fs-6">
       <p>
         A Software Engineer that wants to change the world (or country, at least).
         Likes functional approach and column-oriented databases.
