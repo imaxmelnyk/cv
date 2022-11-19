@@ -21,6 +21,10 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 
+.section {
+  margin-bottom: 2em;
+}
+
 .separator {
   display: none;
 }
