@@ -6,13 +6,14 @@ import Section from './Section.vue'
   <Section name="Summary">
     <div class="fs-6">
       <p>
-        A Software Engineer that wants to change the world (or country, at least).
-        Likes functional approach and column-oriented databases.
-        Worked in several startups all around the world.
-        Fall in love with classical music.
+        As a software engineer with 8 years of experience, I specialize in designing and building scalable,
+        fault-tolerant backend systems and distributed architectures that can handle large volumes of traffic and data.
+        I have a strong foundation in functional programming principles and
+        am well-versed in working with a variety of programming languages and technologies.
       </p>
       <p>
-        P.S. It’s funny to talk about myself in 3rd person.
+        Over the course of my career, I have gained experience working with startups as well as large corporations,
+        which has given me a flexible and adaptable approach to problem-solving.
       </p>
     </div>
   </Section>

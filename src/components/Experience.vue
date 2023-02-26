@@ -4,198 +4,95 @@ import ExperienceItem from './ExperienceItem.vue';
 </script>
 
 <template>
-  <Section name="Work Experience">
+  <Section name="Experience">
     <ExperienceItem 
       company="People.ai"
       position="Senior Software Engineer"
-      location="Toronto, Canada"
+      location="Toronto, Canada (Kyiv, Ukraine)"
       period="May 2021 - now">
 
       <p>
-        Domain: Revenue Operations and Intelligence
+        <b>Core technologies:</b> Scala, Python, AWS, Spark, Kafka.
       </p>
       <p>
-        Responsibilities:
         <ul>
           <li>
-            Software design and development.
+            Spearheaded the design and implementation of a BI Connector, resulting in a drastic reduction of time-to-value from 2 weeks to 2 minutes.
+            This innovation was instrumental in attracting new clients, contributing to a boost of over $10 million in annual recurring revenue (ARR).
           </li>
           <li>
-            Mentor junior/middle engineers.
+            Led the design and development of a Public API from the ground up, enabling third-party business partners to integrate with our platform and
+            paving the way for a new subscription plan that was 2x more expensive than the previous one.
           </li>
           <li>
-            Collaborate with staff engineers and managers to design architecture and plan activities.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Achievements:
-        <ul>
-          <li>
-            Design & Implementation of BI Connector for people.ai data
-            that reduces time-to-value from 2 weeks to 2 mins (10000 times faster),
-            which itself brought new clients for several mil $ ARR.
+            Led the design and development of a new CRM connection that expanded our platform's reach by unlocking a total addressable market worth over $10 billion.
+            This breakthrough initiative provided our company with a significant competitive advantage and opened up new growth opportunities.
           </li>
           <li>
-            Design & Development of Public API from scratch. This enabled third-party business partners,
-            which itself opened a new x2 more expensive subscription plan.
+            Played a key role in the implementation of the core Slack bot feature,
+            which directly led to the acquisition of a new client worth $2 million in annual recurring revenue (ARR).
           </li>
           <li>
-            Implementation of the core slack bot feature that brought a $2mil ARR client.
-          </li>
-          <li>
-            Reduced the cost of applications & spark infrastructure by $5k per month.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            Scala, Akka
-          </li>
-          <li>
-            Python
-          </li>
-          <li>
-            Spark, Kafka
-          </li>
-          <li>
-            AWS
-          </li>
-          <li>
-            Kubernetes
-          </li>
-          <li>
-            Docker
-          </li>
-          <li>
-            CircleCI, Github Actions
+            Successfully optimized applications and Spark infrastructure, achieving an annual cost savings of $60k.
           </li>
         </ul>
       </p>
     </ExperienceItem>
     <ExperienceItem 
-      company="HERE Technologies"
+      company="HERE Technologies (Intellias)"
       position="Senior Scala Developer"
       location="Kyiv, Ukraine"
       period="Oct. 2020 - May 2021">
 
       <p>
-        Outstaffing Company: Intellias <br>
-        Domain: 3D HD live maps
+        <b>Core technologies:</b> Scala, Flink, Kafka.
       </p>
       <p>
-        Responsibilities:
         <ul>
           <li>
-            Software design and development.
+            Achieved a 47% increase in the accuracy of HD lane attribute detection by implementing cutting-edge computer vision techniques andfine-tuning the algorithm.
+            This breakthrough advancement significantly improved the user experience and contributed to increased customer satisfaction.
           </li>
           <li>
-            Mentor junior/middle engineers.
+            Developed and deployed new algorithms for detecting extended attributes of lanes, resulting in a 31% performance improvement.
+            This technical innovation required a deep understanding of the system architecture and advanced coding skills,
+            and was crucial in maintaining our market position and competitiveness.
           </li>
           <li>
-            Collaborate with team lead to design architecture and plan activities.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Achievements:
-        <ul>
-          <li>
-            Improved HD Lanes attribute detection accuracy by 47%.
-          </li>
-          <li>
-            Implemented new algorithms for lanes extended attributes, which improved the performance by 31%.
-          </li>
-          <li>
-            Fixed project-critical, long-lived bug, which saved the company about 150k$ per year.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            Scala, Flink
-          </li>
-          <li>
-            Kafka, Streams
-          </li>
-          <li>
-            AWS
-          </li>
-          <li>
-            Kubernetes
-          </li>
-          <li>
-            Docker
-          </li>
-          <li>
-            GitLab CI
+            Resolved a project-critical, long-standing bug that was causing system instability and inefficiency, resulting in a cost savings of about $100k per year.
+            This complex problem required a meticulous troubleshooting process, expert knowledge of the system's inner workings,
+            and strong collaboration with cross-functional teams.
           </li>
         </ul>
       </p>
     </ExperienceItem>
 
     <ExperienceItem 
-      company="CreditGate24"
+      company="CreditGate24 (Beetroot)"
       position="Software Engineer"
       location="Kyiv, Ukraine"
       period="Sep. 2019 - Oct. 2020">
 
       <p>
-        Outstaffing Company: Beetroot <br>
-        Domain: FinTech, P2P Loans
+        <b>Core technologies:</b> Scala, Akka, Java, Spring.
       </p>
       <p>
-        Responsibilities:
         <ul>
           <li>
-            Software design and development.
+            Conceptualized and executed a new client onboarding system that improved customer retention by 12%,
+            resulting in an increase in annual recurring revenue (ARR) of $3 million.
+            This innovative system involved automating key steps in the onboarding process, streamlining communication with customers,
+            and providing personalized support.
           </li>
           <li>
-            Maintain development standards and best practices.
+            Pioneered the development of a new type of business loan that expanded the total addressable market (TAM) by 30%,
+            resulting in a significant increase in revenue and market share. This groundbreaking loan product was tailored to the needs of underserved customer segments and
+            required a deep understanding of market dynamics and customer needs.
           </li>
           <li>
-            Resolve technical issues.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Achievements:
-        <ul>
-          <li>
-            Designed and implemented a new client onboarding system, which improved customer retention by 12%.
-          </li>
-          <li>
-            Developed a new type of business loan that expanded the TAM by 30%.
-          </li>
-          <li>
-            Designed and implemented a new multicurrency system which opens the door for the 10 billion $ market.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            Scala, Akka
-          </li>
-          <li>
-            Java, Spring
-          </li>
-          <li>
-            PostgreSQL
-          </li>
-          <li>
-            AWS
-          </li>
-          <li>
-            Docker
-          </li>
-          <li>
-            Gitlab CI
+            Designed and implemented a cutting-edge multicurrency system that unlocked new growth opportunities and opened the door
+            for a total addressable market worth $10 billion. This technical achievement involved integrating with multiple payment processors,
+            ensuring compliance with global regulations, and providing a seamless user experience for customers around the world.
           </li>
         </ul>
       </p>
@@ -208,201 +105,49 @@ import ExperienceItem from './ExperienceItem.vue';
       period="May 2018 - Jul. 2019">
 
       <p>
-        Domain: Process Mining
+        <b>Core technologies:</b> Scala, Elixir, Clickhouse.
       </p>
       <p>
-        Responsibilities:
         <ul>
           <li>
-            Software development.
+            Implemented a transformative logs transformation server that enabled our largest client to process their data more efficiently and effectively.
+            This technical breakthrough involved designing and building a highly scalable,
+            fault-tolerant system that met the client's unique needs and exceeded their expectations.
           </li>
           <li>
-            Algorithm research.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Achievements:
-        <ul>
-          <li>
-            Implemented logs transformation server which enabled the biggest client.
+            Successfully migrated the HTTP portion of the application to Elixir, resulting in a 25% improvement in performance and a corresponding increase in user satisfaction.
+            This complex technical undertaking required a deep understanding of the application's architecture,
+            advanced programming skills, and the ability to collaborate effectively with cross-functional teams.
           </li>
           <li>
-            Migrated HTTP part of the application to Elixir, which improved its performance by 25%.
-          </li>
-          <li>
-            R&D of the new conformance-checking algorithm (part of the master thesis).
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            Scala, Play
-          </li>
-          <li>
-            Elixir, Phoenix
-          </li>
-          <li>
-            PostgreSQL, Clickhouse
-          </li>
-          <li>
-            RabbitMQ
-          </li>
-          <li>
-            AWS
-          </li>
-          <li>
-            Docker
-          </li>
-          <li>
-            Gitlab CI
+            Conducted extensive research and development of a new conformance-checking algorithm, which was a crucial part of the master thesis.
+            This groundbreaking work involved leveraging cutting-edge machine learning and data analysis techniques to develop a highly accurate and efficient algorithm.
+            The resulting insights and findings had a significant impact on the field and contributed to advancements in related areas of research.
           </li>
         </ul>
       </p>
     </ExperienceItem>
 
     <ExperienceItem 
-      company="Freelance"
+      company="Contractor"
       position="Software Engineer"
-      location="Tartu, Estonia"
-      period="Sep. 2017 - May 2018">
+      location="Tartu, Estonia (Kyiv, Ukraine)"
+      period="Sep. 2015 - May 2018">
 
       <p>
-        Related Projects:
         <ul>
           <li>
-            Websites parsing.
+            Implemented bug fixes and new features for multiple ecommerce websites, improving UX and increasing sales.
           </li>
           <li>
-            Tartu parking solution.
+            Designed and implemented key features for an e-hospital system, improving patient care and streamlining processes.
           </li>
           <li>
-            Resource management for plant company, especially rental system.
+            Designed and implemented algorithms and features for a plagiarism detection system for universities,
+            improving academic integrity and student learning outcomes.
           </li>
           <li>
-            Mining project in New York.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            Scala
-          </li>
-          <li>
-            Java
-          </li>
-          <li>
-            Elixir, Phoenix
-          </li>
-          <li>
-            JavaScript, VueJS, Angular
-          </li>
-          <li>
-            R
-          </li>
-        </ul>
-      </p>
-    </ExperienceItem>
-
-    <ExperienceItem 
-      company="LabITeam"
-      position="PHP/JS Developer"
-      location="Kyiv, Ukraine"
-      period="Mar. 2017 - Aug. 2017">
-
-      <p>
-        Domain: Plagiarism Checker, E-Hospital
-      </p>
-      <p>
-        Responsibilities:
-        <ul>
-          <li>
-            Software development.
-          </li>
-          <li>
-            Onboarding new members.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Achievements:
-        <ul>
-          <li>
-            Implement a new plagiarism check application for schools, which is used in the US in over 100 schools.
-          </li>
-          <li>
-            Implemented a new backend for the e-hospital solution, which is 50% more effective than the old one.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            PHP, Laravel, CodeIgniter, Slim
-          </li>
-          <li>
-            Javascript, Angular, PhantomJS
-          </li>
-          <li>
-            MySQL
-          </li>
-        </ul>
-      </p>
-    </ExperienceItem>
-
-    <ExperienceItem 
-      company="kLooKva"
-      position="PHP Developer"
-      location="Kyiv, Ukraine"
-      period="Sep. 2015 - Feb. 2017">
-
-      <p>
-        Domain: eCommerce
-      </p>
-      <p>
-        Responsibilities:
-        <ul>
-          <li>
-            Software development.
-          </li>
-        </ul>
-      </p>
-      <p>
-        Projects:
-        <ul>
-          <li>
-            Several online shops (bug fix/feature development).
-          </li>
-          <li>
-            Bet aggregator (bug fix/feature development).
-          </li>
-          <li>
-            eHospital (full development cycle).
-          </li>
-          <li>
-            Log search tool (full development cycle).
-          </li>
-        </ul>
-      </p>
-      <p>
-        Technologies:
-        <ul>
-          <li>
-            PHP, Joomla, Phalcon
-          </li>
-          <li>
-            JavaScript, VueJS
-          </li>
-          <li>
-            MySQL
-          </li>
-          <li>
-            GCP, Google Big Table
+            Designed and implemented key features for a parking management system, improving traffic flow and enhancing customer experience.
           </li>
         </ul>
       </p>

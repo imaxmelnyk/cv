@@ -12,7 +12,8 @@ import ExperienceItem from './ExperienceItem.vue';
       period="May 2019">
 
       <p>
-        Process mining science work on how to run conformance checking considering the data perspective of the process.
+        My master thesis topic focuses on the application of process mining techniques to improve the accuracy of conformance checking,
+        particularly by taking into account the data perspective of the process.
       </p>
     </ExperienceItem>
   </Section>

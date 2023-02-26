@@ -12,7 +12,7 @@ import ExperienceItem from './ExperienceItem.vue';
       period="Aug. 2015">
 
       <p>
-        Help local communities to clean/renovate their villages.
+        During my volunteer experience, I contributed to local communities by assisting with the cleaning and renovation of their villages.
       </p>
     </ExperienceItem>
 
@@ -23,7 +23,7 @@ import ExperienceItem from './ExperienceItem.vue';
       period="Aug. 2017">
 
       <p>
-        Communicate with the local community (elderlies) and share our experience and culture.
+        As a volunteer, I had the opportunity to engage with the local community, specifically with elderly individuals, to share our experiences and cultural perspectives.
       </p>
     </ExperienceItem>
 
@@ -34,7 +34,7 @@ import ExperienceItem from './ExperienceItem.vue';
       period="Aug. 2019">
 
       <p>
-        Play with children and teach them English.
+        During my volunteer work, I had the chance to interact with children and assist with their English language education by playing and teaching them.
       </p>
     </ExperienceItem>
   </Section>

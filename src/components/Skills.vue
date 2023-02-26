@@ -8,15 +8,15 @@ import Section from './Section.vue'
       <tbody>
         <tr>
           <th>Programming</th>
-          <td>Scala (Akka, Play), Java, Python, Elixir (Phoenix)</td>
+          <td>Scala, Java, Python, AWS, GCP, Spark, Hive, Flink, Kafka, AMQP, RabbitMQ, Airflow, PostgreSQL, Redshift, ElasticSearch, Presto, Athena, S3.</td>
         </tr>
         <tr>
           <th>Tooling</th>
-          <td>Docker, k8s, AWS (Certified Solutions Architect), Kafka, Spark, PostgreSQL, Redshift, Airflow, Prometheus, Grafana, Splunk</td>
+          <td>Docker, Kubernetes, Terraform, Prometheus, Grafana, Splunk, SignalFx, CircleCI, Github Actions, Gitlab CI.</td>
         </tr>
         <tr>
-          <th>Languages</th>
-          <td>Ukrainian, English, French, Korean</td>
+          <th>Expertise</th>
+          <td>Big Data, ETL, CI/CD, Cloud computing, Distributed Systems, Microservices, Streams, RESTful APIs, OOP, Functional programming, Unit testing.</td>
         </tr>
       </tbody>
     </table>
