@@ -8,7 +8,7 @@ import Section from './Section.vue'
       <tbody>
         <tr>
           <th>Programming</th>
-          <td>Scala, Java, Python, AWS, GCP, Spark, Hive, Flink, Kafka, AMQP, RabbitMQ, Airflow, PostgreSQL, Redshift, ElasticSearch, Presto, Athena, S3.</td>
+          <td>Scala, Java, Python, AWS, GCP, Spark, Hive, Flink, Kafka, Streams, AMQP, RabbitMQ, Airflow, PostgreSQL, Redshift, ElasticSearch, Presto, Athena, S3.</td>
         </tr>
         <tr>
           <th>Tooling</th>
@@ -16,7 +16,7 @@ import Section from './Section.vue'
         </tr>
         <tr>
           <th>Expertise</th>
-          <td>Big Data, ETL, CI/CD, Cloud computing, Distributed Systems, Microservices, Streams, RESTful APIs, OOP, Functional programming, Unit testing.</td>
+          <td>Big Data, MapReduce, Parallel Processing, ETL, CI/CD, Cloud computing, Distributed Systems, Microservices, Streams, RESTful APIs, OOP, Functional programming, Unit testing.</td>
         </tr>
       </tbody>
     </table>
