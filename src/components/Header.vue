@@ -5,7 +5,7 @@
     </h1>
     <div class="fs-5 text-color-red">Software Engineer</div>
     <div class="fs-6">
-      <span class="contact"><i class="bi bi-telephone-fill align-middle"></i> <a class="link-unstyled" href="tel:+14168541631" target="_blank">+14168541631</a></span>
+      <span class="contact"><i class="bi bi-telephone-fill align-middle"></i> <a class="link-unstyled" href="tel:+13234997057" target="_blank">+1 (323) 499-7057</a></span>
       <span class="mx-3 separator">|</span>
       <span class="contact"><i class="bi bi-envelope-fill align-middle"></i> <a class="link-unstyled" href="mailto:max@maxmelnyk.dev" target="_blank">max@maxmelnyk.dev</a></span>
       <span class="mx-3 separator">|</span>
