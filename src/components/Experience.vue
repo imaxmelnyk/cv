@@ -8,7 +8,7 @@ import ExperienceItem from './ExperienceItem.vue';
     <ExperienceItem 
       company="People.ai"
       position="Senior Software Engineer"
-      location="Toronto, Canada (Kyiv, Ukraine)"
+      location="Los Angeles, United States | Toronto, Canada | Kyiv, Ukraine"
       period="May 2021 - now">
 
       <p>
